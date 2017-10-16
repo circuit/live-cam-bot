@@ -1,6 +1,6 @@
 # live-cam-bot
 
-[Electron](https://electron.atom.io/)-based Bot utilizing the (setScreenshareStream)[https://circuitsandbox.net/sdk/classes/Client.html#method_setScreenshareStream] API to send a video stream captured from a local camera.
+[Electron](https://electron.atom.io/)-based Bot utilizing the [setScreenshareStream](https://circuitsandbox.net/sdk/classes/Client.html#method_setScreenshareStream) API to send a video stream captured from a local camera.
 
 This example would be suited to run on a Raspberry PI with a local camera and wifi. The PI could then be used for surveillance, local surf conditions or anything else you'd like to share.
 
@@ -8,7 +8,7 @@ This example would be suited to run on a Raspberry PI with a local camera and wi
 
 ## Details
 * Conversation to stream video on is predefined and its ID set in config.json
-* Bot will start (or join) conference on given conversation and share the video stream of the local camera. If non default camera is to be used, (setMediaDevices)[https://circuitsandbox.net/sdk/classes/Client.html#method_setMediaDevices] can be used to choose a video input device.
+* Bot will start (or join) conference on given conversation and share the video stream of the local camera. If non default camera is to be used, [setMediaDevices](https://circuitsandbox.net/sdk/classes/Client.html#method_setMediaDevices) can be used to choose a video input device.
 * Bot will ensure the conference is always running
 
 ## Getting Started
@@ -17,6 +17,8 @@ This example would be suited to run on a Raspberry PI with a local camera and wi
 * [Register a bot](http://circuit.github.io/oauth) on the sandbox (OAuth 2.0 Client Credentials)
 
 ### Run the app
+
+> This example uses async/await, so node.js version 7.6+ is required
 
 ```bash
     git clone https://github.com/circuit/live-cam-bot.git
