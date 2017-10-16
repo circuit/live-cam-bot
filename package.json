@@ -1,0 +1,27 @@
+{
+  "name": "webrtc-bot-example",
+  "version": "0.0.1",
+  "description": "Example electron bot application accessing the WebRTC API of the Circuit JS SDK",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug"
+  },
+  "repository": "https://github.com/circuit/webrtc-bot-example",
+  "keywords": [
+    "Circuit",
+    "WebRTC",
+    "electron",
+    "SDK",
+    "API"
+  ],
+  "author": "Roger Urscheler <roger.urscheler@unify.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "circuit-sdk": "^1.2.1900",
+    "electron": "^1.8.1"
+  },
+  "devDependencies": {
+    "electron": "^1.7.6"
+  }
+}
