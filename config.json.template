@@ -1,5 +1,5 @@
 {
-  "sandbox":
+  "sandbox": {
     "options": {
       "domain": "circuitsandbox.net",
       "client_id": "<your client_id>",
@@ -8,7 +8,7 @@
     },
     "conversation": ""
   },
-  "production":
+  "production": {
     "options": {
       "domain": "eu.yourcircuit.com",
       "client_id": "<your client_id>",
