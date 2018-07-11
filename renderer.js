@@ -2,6 +2,9 @@
 // client crendentials app would be needed to be in multiple calls at
 // the same time.
 
+// Specify the file circuit.js which is the browser SDK to get access to WebRTC APIs.
+const Circuit = require('circuit-sdk/circuit.js');
+
 const config = require('electron').remote.require('./config.json');
 
 // Create circuit SDK client instance
