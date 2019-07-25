@@ -4,7 +4,8 @@
       "domain": "circuitsandbox.net",
       "client_id": "<your client_id>",
       "client_secret": "<your client_secret>",
-      "autoRenewToken": true
+      "autoRenewToken": true,
+      "scope": "CALL_RECORDING,CALLS,MENTION_EVENT,READ_CONVERSATIONS,READ_USER,READ_USER_PROFILE,WRITE_CONVERSATIONS,WRITE_USER_PROFILE"
     },
     "conversation": ""
   },
