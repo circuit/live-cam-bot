@@ -37,10 +37,10 @@ async function stream() {
       video.onloadedmetadata = e => video.play();
       */
 
-      // Send stream on Circuit's screenshare stream. Alternatively use setAudioVideoStream
-      // for regular video.
-      await client.setScreenshareStream(call.callId, mediaStream);
-      //await client.setAudioVideoStream(call.callId, mediaStream);
+      // Send stream on Circuit's screenshare stream. setScreenshareStream or setAudioVideoStream
+      // can be used. setAudioVideoStream includes the audio track as well.
+      //await client.setScreenshareStream(call.callId, mediaStream);
+      await client.setAudioVideoStream(call.callId, mediaStream);
     }
   } catch (err) {
     console.error(`${err.name}: ${err.message}`);
