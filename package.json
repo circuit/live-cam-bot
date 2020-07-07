@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "circuit-sdk": "latest",
-    "electron": "^2.0.4"
+    "electron": "^7.2.4"
   },
   "devDependencies": {}
 }
